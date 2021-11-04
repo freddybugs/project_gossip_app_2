@@ -13,7 +13,6 @@ Créer par l'équipe 100Code (Romuald Petit, Lucas Derhore, Justin MBODJE, Quent
 - Ensuite `rails db:create`
 - Ensuite `rails db:migrate`
 - Vérifier si migrations sont up avec : `rails db:migrate:status`
-- Ensuite `rails db:seed`
 - Enfin ouvrir le serveur `rails server`
 - Ouvrir une fenetre du navigateur (exemple: chrome) et aller sur: `localhost:3000`
 
