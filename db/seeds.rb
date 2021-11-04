@@ -4,27 +4,27 @@ require 'faker'
 
 
 #city.destroy_all
-1.times do
-  city = City.create!(
-    name: Faker::Movies::StarWars.planet,
-    zip_code: Faker::Number.between(from: 1000, to: 97000))
-end
+#1.times do
+#  city = City.create!(
+#    name: Faker::Movies::StarWars.planet,
+#    zip_code: Faker::Number.between(from: 1000, to: 97000))
+#end
 
 #user.destroy_all
-1.times do
- user = User.create!(
-   first_name: Faker::Name.first_name,
-   last_name: Faker::Name.last_name,
-   description: Faker::Quote.yoda,
-   email: Faker::Internet.email,
-   age: Faker::Number.between(from: 18, to: 60),
-   city: City.all.sample)
-end
+#1.times do
+# user = User.create!(
+#   first_name: Faker::Name.first_name,
+#   last_name: Faker::Name.last_name,
+#   description: Faker::Quote.yoda,
+#   email: Faker::Internet.email,
+#   age: Faker::Number.between(from: 18, to: 60),
+#   city: City.all.sample)
+#end
 
-1.times do 
-  comment = Comment.create!(
-    content: Faker::Quote.yoda)
-end
+#1.times do 
+#  comment = Comment.create!(
+#    content: Faker::Quote.yoda)
+#end
 #Gossip.destroy_all
 #5.times do
 #  gossip = Gossip.create!(
